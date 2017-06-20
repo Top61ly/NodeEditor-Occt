@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{bf718595-a76a-4cf3-aeea-46864ca902dd}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{9c75b619-5382-4173-b507-8e78c7d9657c}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Source Files\Number">
+      <UniqueIdentifier>{9066edd3-a2d0-4c4c-8ccd-bb727e2f320e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OCCT">
+      <UniqueIdentifier>{cd17f7d3-3c34-4574-815e-a92ff767e86d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OCCT\gp_Pnt">
+      <UniqueIdentifier>{a4504c43-119d-470c-9456-e5585f30269b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OCCT\gp_Lin">
+      <UniqueIdentifier>{6b18f68c-06a4-4894-884c-1976bd4a86fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\QT">
+      <UniqueIdentifier>{7077517a-de7d-46bd-8756-3181519b1332}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files\OCCTView">
+      <UniqueIdentifier>{710d00b9-c888-4b87-a91e-ac94dff9a9f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OCCTView">
+      <UniqueIdentifier>{056f3e38-1aa8-405a-82af-91d99d7bf64c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OCCT\TopoDS_ShapeData">
+      <UniqueIdentifier>{f77e2eca-f0bd-4341-8bb3-f03a0374bc0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OCCT\Display">
+      <UniqueIdentifier>{bb1e17dc-014f-4404-9e4c-36e1aeb5ad36}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_IntegerToDecimalModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MathOperationDataModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ModuloModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NumberDisplayDataModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Number\DecimalToIntegerModel.cpp">
+      <Filter>Source Files\Number</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DecimalToIntegerModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DecimalToIntegerModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Number\IntegerToDecimalModel.cpp">
+      <Filter>Source Files\Number</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_IntegerToDecimalModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_IntegerToDecimalModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Number\MathOperationDataModel.cpp">
+      <Filter>Source Files\Number</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MathOperationDataModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MathOperationDataModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Number\ModuloModel.cpp">
+      <Filter>Source Files\Number</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ModuloModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ModuloModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Number\NumberDisplayDataModel.cpp">
+      <Filter>Source Files\Number</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NumberDisplayDataModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NumberDisplayDataModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Number\NumberSourceDataModel.cpp">
+      <Filter>Source Files\Number</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NumberSourceDataModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NumberSourceDataModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\OCCT\gp_PntDataModel.cpp">
+      <Filter>Source Files\OCCT\gp_Pnt</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_gp_PntDataModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_gp_PntDataModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\QT\mainwidget.cpp">
+      <Filter>Source Files\QT</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\QT\mainwindow.cpp">
+      <Filter>Source Files\QT</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_mainwindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_mainwindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_occview.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_occview.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\OCCTView\occview.cpp">
+      <Filter>Source Files\OCCTView</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\OCCTView\occqt.cpp">
+      <Filter>Source Files\OCCTView</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_occqt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_occqt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\OCCT\gp_MakeLinModel.cpp">
+      <Filter>Source Files\OCCT\gp_Lin</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_gp_MakeLinModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_gp_MakeLinModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TopoDS_ShapeDataModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TopoDS_ShapeDataModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\OCCT\TopoDS_ShapeDataModel.cpp">
+      <Filter>Source Files\OCCT\TopoDS_ShapeData</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DisplayModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DisplayModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_mainwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_mainwidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\OCCT\AllShapes.cpp">
+      <Filter>Source Files\OCCT\Display</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\OCCT\DisplayModel.cpp">
+      <Filter>Source Files\OCCT\Display</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Number\Number.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Number\AdditionModel.hpp">
+      <Filter>Source Files\Number</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Number\DecimalData.hpp">
+      <Filter>Source Files\Number</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Number\DivisionModel.hpp">
+      <Filter>Source Files\Number</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Number\IntegerData.hpp">
+      <Filter>Source Files\Number</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Number\MultiplicationModel.hpp">
+      <Filter>Source Files\Number</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Number\SubtractionModel.hpp">
+      <Filter>Source Files\Number</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\OCCT\gp_PntData.hpp">
+      <Filter>Source Files\OCCT\gp_Pnt</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\OCCT\gp_LinData.hpp">
+      <Filter>Source Files\OCCT\gp_Lin</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_mainwindow.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\OCCTView\ui_occQt.h">
+      <Filter>Header Files\OCCTView</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\OCCT\TopoDS_ShapeData.hpp">
+      <Filter>Source Files\OCCT\TopoDS_ShapeData</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\OCCT\AllShapes.h">
+      <Filter>Source Files\OCCT\Display</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Source\Number\DecimalToIntegerModel.hpp">
+      <Filter>Source Files\Number</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Source\Number\IntegerToDecimalModel.hpp">
+      <Filter>Source Files\Number</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Source\Number\MathOperationDataModel.hpp">
+      <Filter>Source Files\Number</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Source\Number\ModuloModel.hpp">
+      <Filter>Source Files\Number</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Source\Number\NumberDisplayDataModel.hpp">
+      <Filter>Source Files\Number</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Source\Number\NumberSourceDataModel.hpp">
+      <Filter>Source Files\Number</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Source\OCCT\gp_PntDataModel.hpp">
+      <Filter>Source Files\OCCT\gp_Pnt</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Source\OCCT\gp_MakeLinModel.hpp">
+      <Filter>Source Files\OCCT\gp_Lin</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Source\QT\mainwindow.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Source\QT\mainwindow.hpp">
+      <Filter>Source Files\QT</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Source\QT\mainwidget.hpp">
+      <Filter>Source Files\QT</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Source\OCCTView\occview.hpp">
+      <Filter>Source Files\OCCTView</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Source\OCCTView\occqt.hpp">
+      <Filter>Source Files\OCCTView</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Source\OCCT\TopoDS_ShapeDataModel.hpp">
+      <Filter>Source Files\OCCT\TopoDS_ShapeData</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Source\OCCT\DisplayModel.hpp">
+      <Filter>Source Files\OCCT\Display</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Source\Resources\box.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\Resources\chamfer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\Resources\common.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\Resources\cone.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\Resources\cut.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\Resources\cylinder.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\Resources\extrude.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\Resources\fillet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\Resources\FitAll.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\Resources\fuse.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\Resources\helix.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\Resources\Home.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\Resources\lamp.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\Resources\loft.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\Resources\Pan.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\Resources\revolve.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\Resources\Rotate.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\Resources\sphere.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\Resources\torus.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\Resources\wedge.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\Resources\Zoom.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

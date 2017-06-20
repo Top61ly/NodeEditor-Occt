@@ -1,0 +1,10 @@
+#pragma once
+#include "NumberSourceDataModel.hpp"
+#include "NumberDisplayDataModel.hpp"
+#include "AdditionModel.hpp"
+#include "SubtractionModel.hpp"
+#include "MultiplicationModel.hpp"
+#include "DivisionModel.hpp"
+#include "ModuloModel.hpp"
+#include "DecimalToIntegerModel.hpp"
+#include "IntegerToDecimalModel.hpp"
